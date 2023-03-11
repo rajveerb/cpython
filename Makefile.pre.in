@@ -444,8 +444,7 @@ OBJECT_OBJS=	\
 		Objects/unionobject.o \
 		Objects/weakrefobject.o \
 		Objects/perf_trampoline.o \
-		@PERF_TRAMPOLINE_OBJ@		
-		Objects/weakrefobject.o
+		@PERF_TRAMPOLINE_OBJ@
 
 ##########################################################################
 # objects that get linked into the Python library
