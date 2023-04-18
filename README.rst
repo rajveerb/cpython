@@ -86,7 +86,7 @@ For example::
     make test
 
     or run 
-    bash debug_build.sh 
+    sudo bash debug_build.sh 
 
 (This will fail if you *also* built at the top-level directory.  You should do
 a ``make clean`` at the top-level first.)
